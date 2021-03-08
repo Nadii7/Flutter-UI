@@ -3,7 +3,7 @@
 # I made this project to help you learn flutter UI:
 
 
-![](first-ui.png)
+![](screenshot/first-ui.png)
 
 
 ## Getting Started
