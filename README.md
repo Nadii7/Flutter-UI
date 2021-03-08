@@ -1,6 +1,10 @@
-# flutter_ui
+# Flutter UI
 
-A new Flutter project.
+# I made this project to help you learn flutter UI:
+
+
+![](first-ui.png)
+
 
 ## Getting Started
 
