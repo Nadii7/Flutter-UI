@@ -9,7 +9,7 @@ class DummyData {
   ];
   static List<Map<String, dynamic>> catItemList = [
     {
-      'image': 'assets/images/1.jpg',
+      'image': 'assets/ui1/1.jpg',
       'title': 'North Mountain',
       'isFav': true,
       'rating': 2.0,
@@ -17,7 +17,7 @@ class DummyData {
       'location': 'Laborte, Argentina',
     },
     {
-      'image': 'assets/images/2.jpg',
+      'image': 'assets/ui1/2.jpg',
       'title': 'Mount Fuji',
       'isFav': false,
       'rating': 5.0,
@@ -25,7 +25,7 @@ class DummyData {
       'location': 'Cairo, Egypt',
     },
     {
-      'image': 'assets/images/3.jpg',
+      'image': 'assets/ui1/3.jpg',
       'title': 'Everst Mountain',
       'isFav': false,
       'rating': 3.5,
@@ -33,7 +33,7 @@ class DummyData {
       'location': 'Branzino, Italy',
     },
     {
-      'image': 'assets/images/1.jpg',
+      'image': 'assets/ui1/1.jpg',
       'title': 'The Great Mountaine',
       'isFav': true,
       'rating': 4.0,
@@ -41,7 +41,7 @@ class DummyData {
       'location': 'Ladame, China',
     },
     {
-      'image': 'assets/images/2.jpg',
+      'image': 'assets/ui1/2.jpg',
       'title': 'Koko Wawa Mountain',
       'isFav': true,
       'rating': 5.0,
@@ -49,7 +49,7 @@ class DummyData {
       'location': 'Calefornia, USA',
     },
     {
-      'image': 'assets/images/3.jpg',
+      'image': 'assets/ui1/3.jpg',
       'title': 'Greenwood Mountain',
       'isFav': false,
       'rating': 1.0,

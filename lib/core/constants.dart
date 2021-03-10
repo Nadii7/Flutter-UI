@@ -9,4 +9,6 @@ const kTextLightColor = Color(0xff777777);
 const white = Color(0xffffffff);
 const black = Color(0xff000000);
 const purple = Color(0xff6A62B7);
-const kAnimationDuration = Duration(milliseconds: 200);
+const red = Color(0xffEF4430);
+const blue = Color(0xff05294F);
+const yellow = Color(0xffF9B430);

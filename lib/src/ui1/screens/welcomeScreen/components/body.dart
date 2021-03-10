@@ -18,7 +18,7 @@ class Body extends StatelessWidget {
             bottomLeft: Radius.circular(35),
           ),
           child: Image.asset(
-            "assets/images/1.jpg",
+            "assets/ui1/1.jpg",
             fit: BoxFit.cover,
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height * 0.6,
