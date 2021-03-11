@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/constants.dart';
+import 'package:flutter_ui/src/core/constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:rating_bar/rating_bar.dart';
 

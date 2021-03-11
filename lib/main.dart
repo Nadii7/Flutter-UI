@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/theme.dart';
+import 'package:flutter_ui/src/core/theme.dart';
 import 'package:flutter_ui/src/mainScreen.dart';
 
 void main() {

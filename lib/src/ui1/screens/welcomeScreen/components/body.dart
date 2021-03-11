@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/constants.dart';
+import 'package:flutter_ui/src/core/constants.dart';
 import 'package:flutter_ui/src/ui1/screens/homeScreen/homeScreen.dart';
 import 'package:flutter_ui/src/ui1/widgets/defaultButton.dart';
 

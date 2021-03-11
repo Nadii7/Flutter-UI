@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/constants.dart';
+import 'package:flutter_ui/src/core/constants.dart';
 
 class FilterWidget extends StatelessWidget {
   final Function onTap;

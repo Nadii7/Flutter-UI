@@ -1,4 +1,4 @@
-import 'package:flutter_ui/core/dummy_data.dart';
+import 'package:flutter_ui/src/core/dummy_data.dart';
 import 'package:flutter_ui/src/ui1/screens/detailsScreen/detailsScreen.dart';
 import 'package:flutter_ui/src/ui1/widgets/catItemWidget.dart';
 import 'package:flutter/material.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/constants.dart';
-import 'package:flutter_ui/core/dummy_data.dart';
+import 'package:flutter_ui/src/core/constants.dart';
+import 'package:flutter_ui/src/core/dummy_data.dart';
 import 'package:flutter_ui/src/ui1/screens/detailsScreen/components/detailsWidget.dart';
 
 class Body extends StatelessWidget {

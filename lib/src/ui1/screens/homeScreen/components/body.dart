@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/constants.dart';
+import 'package:flutter_ui/src/core/constants.dart';
 import 'package:flutter_ui/src/ui1/screens/homeScreen/components/recommendedList.dart';
 import 'CatFilter.dart';
 import 'catItemSlider.dart';

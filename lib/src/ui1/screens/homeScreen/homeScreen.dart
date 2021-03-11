@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/constants.dart';
+import 'package:flutter_ui/src/core/constants.dart';
 import 'package:flutter_ui/src/ui1/widgets/defaultAvatar.dart';
 
 import 'components/body.dart';
@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
         ),
         actions: [
           DefaultAvatar(
-            image: 'assets/images/1.jpg',
+            image: 'assets/ui1/1.jpg',
             isActive: true,
           )
         ],

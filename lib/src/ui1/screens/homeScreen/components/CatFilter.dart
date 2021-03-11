@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/dummy_data.dart';
+import 'package:flutter_ui/src/core/dummy_data.dart';
 import 'package:flutter_ui/src/ui1/widgets/filterWidget.dart';
 
 class CatFilter extends StatefulWidget {

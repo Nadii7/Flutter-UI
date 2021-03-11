@@ -1,16 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/constants.dart';
+import 'package:flutter_ui/src/core/constants.dart';
 
 class DefaultButton extends StatelessWidget {
   final Function onPress;
   final String text;
+  final Color color, textColor;
   final IconData icon;
+  final double height, radius;
 
   const DefaultButton({
     Key key,
     @required this.onPress,
     @required this.text,
     this.icon,
+    this.height,
+    this.radius,
+    this.color,
+    this.textColor,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -21,7 +27,7 @@ class DefaultButton extends StatelessWidget {
           Text(
             text,
             style: TextStyle(
-              color: white,
+              color: textColor ?? white,
               fontSize: 16,
               fontWeight: FontWeight.w400,
             ),
@@ -38,14 +44,14 @@ class DefaultButton extends StatelessWidget {
               : SizedBox(),
         ],
       ),
-      height: 50,
-      color: purple,
+      height: height ?? 50,
+      color: color ?? purple,
       onPressed: onPress,
       padding: EdgeInsets.symmetric(
         horizontal: 25,
       ),
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(25),
+        borderRadius: BorderRadius.circular(radius ?? 25),
       ),
     );
   }
