@@ -35,13 +35,12 @@ class _RegisterTextFieldState extends State<CustomTextField> {
       borderRadius: const BorderRadius.all(Radius.circular(15)),
       child: TextFormField(
         initialValue: widget.init,
-        textAlign: TextAlign.left,
         keyboardType: widget.type ?? TextInputType.text,
         onFieldSubmitted: (v) {},
         onChanged: widget.onChange,
         validator: (value) {
           if (value.isEmpty) {
-            return "${widget.hint == null ? widget.label : widget.hint} is missed";
+            return "${widget.label ?? widget.hint} is missed";
           }
           return null;
         },

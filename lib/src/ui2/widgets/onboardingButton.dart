@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/src/core/constants.dart';
-import 'package:flutter_ui/src/ui2/screens/AuthenticationsScreen/login/loginScreen.dart';
+import 'package:flutter_ui/src/ui2/screens/Authentications/login/loginScreen.dart';
 
 class OnboardingButton extends StatelessWidget {
   const OnboardingButton({
@@ -22,6 +22,11 @@ class OnboardingButton extends StatelessWidget {
         children: [
           // Remove Button
           TextButton(
+            style: ButtonStyle(
+              overlayColor: MaterialStateColor.resolveWith(
+                (states) => yellow,
+              ),
+            ),
             child: Text(
               "Back",
               style: TextStyle(

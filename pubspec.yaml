@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.0
   flutter_svg:
   google_fonts:
+  toast: ^0.1.5
   rating_bar: ^0.2.0
 
 

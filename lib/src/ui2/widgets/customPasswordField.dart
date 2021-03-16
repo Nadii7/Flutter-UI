@@ -41,9 +41,9 @@ class _CustomPasswordFieldState extends State<CustomPasswordField> {
           fontSize: 16,
         ),
         decoration: InputDecoration(
-          labelText: widget.label,
           filled: true,
           fillColor: darkBlue,
+          labelText: widget.label,
           errorText: widget.errorText ?? null,
           suffixIcon: IconButton(
             icon: Icon(

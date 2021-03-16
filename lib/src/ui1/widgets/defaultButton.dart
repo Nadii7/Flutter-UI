@@ -6,7 +6,8 @@ class DefaultButton extends StatelessWidget {
   final String text;
   final Color color, textColor;
   final IconData icon;
-  final double height, radius;
+  final double height, radius, fontSize;
+  final FontWeight fontWeight;
 
   const DefaultButton({
     Key key,
@@ -17,6 +18,8 @@ class DefaultButton extends StatelessWidget {
     this.radius,
     this.color,
     this.textColor,
+    this.fontSize,
+    this.fontWeight,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -28,8 +31,9 @@ class DefaultButton extends StatelessWidget {
             text,
             style: TextStyle(
               color: textColor ?? white,
-              fontSize: 16,
-              fontWeight: FontWeight.w400,
+              fontSize: fontSize ?? 16,
+              fontWeight: fontWeight ?? FontWeight.w400,
+              letterSpacing: 1,
             ),
           ),
           icon != null
