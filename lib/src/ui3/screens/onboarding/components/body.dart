@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/src/core/constants.dart';
 import 'package:flutter_ui/src/core/dummy_data.dart';
+import 'package:flutter_ui/src/ui3/screens/home/home.dart';
 import 'package:flutter_ui/src/ui3/screens/onboarding/components/onboardingSlider.dart';
+import 'package:flutter_ui/src/ui3/widgets/customIconButton.dart';
 
 class Body extends StatefulWidget {
   @override
@@ -20,6 +21,7 @@ class _BodyState extends State<Body> {
         width: MediaQuery.of(context).size.width,
         child: Column(
           children: [
+            // onboarding Slider
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.7,
               child: OnboardingSlider(
@@ -34,39 +36,27 @@ class _BodyState extends State<Body> {
             ),
             Spacer(flex: 1),
             // Next Page
-            Container(
-              width: 100,
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: newBlack.withOpacity(0.2),
-                borderRadius: BorderRadius.circular(50),
-              ),
-              child: FlatButton(
-                height: 80,
-                color: newBlack,
-                splashColor: white,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(40),
-                ),
-                child: Icon(
-                  Icons.play_arrow_rounded,
-                  color: white,
-                ),
-                onPressed: () {
-                  setState(() {
-                    if (currentPage < DummyData.onboardingList.length - 1) {
-                      _controller.nextPage(
-                        curve: Curves.linear,
-                        duration: Duration(
-                          milliseconds: 200,
-                        ),
-                      );
-                    } else {
-                      print('hello');
-                    }
-                  });
-                },
-              ),
+            CustomIconButton(
+              size: 100,
+              icon: Icons.play_arrow_rounded,
+              onPress: () {
+                setState(() {
+                  if (currentPage < DummyData.onboardingList.length - 1) {
+                    _controller.nextPage(
+                      curve: Curves.linear,
+                      duration: Duration(
+                        milliseconds: 200,
+                      ),
+                    );
+                  } else {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => HomeScreen(),
+                      ),
+                    );
+                  }
+                });
+              },
             ),
             Spacer(flex: 2),
           ],

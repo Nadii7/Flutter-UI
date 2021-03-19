@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/src/core/constants.dart';
 import 'package:flutter_ui/src/ui2/widgets/onboardingIndecator.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class OnboardingSlider extends StatelessWidget {
   final PageController controller;
@@ -48,9 +49,10 @@ class OnboardingSlider extends StatelessWidget {
             Text(
               data[index]['title'],
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: GoogleFonts.lato(
                 color: newBlack,
-                fontSize: 24,
+                fontSize: 25,
+                height: 1.2,
                 fontWeight: FontWeight.w600,
               ),
             ),

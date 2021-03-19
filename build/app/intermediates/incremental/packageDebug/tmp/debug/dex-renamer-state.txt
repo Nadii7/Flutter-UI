@@ -1,4 +1,4 @@
-#Tue Mar 16 21:14:13 EET 2021
+#Fri Mar 19 17:00:05 EET 2021
 base.0=/home/nadii7/VS Projects/Flutter-UI/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
